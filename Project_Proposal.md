@@ -115,5 +115,5 @@ Step 6: 端到端验证 + 截图     → 完整功能确认
 （待创建）
 
 ```
-https://github.com/[your-username]/image-viewer
+https://github.com/zhongty291/image-viewer
 ```
