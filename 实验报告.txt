@@ -787,3 +787,60 @@ Claude Code 的作用评估
   - 代码托管在 GitHub 上积累作品集
   - 阅读优秀开源项目的源码（如 Windows Terminal）
   - 定期查看字节跳动等公司的校招 JD，校准学习方向
+
+
+================================================================================
+参考文献
+================================================================================
+
+[1]  Beck K. Test-Driven Development: By Example[M]. Boston: Addison-Wesley,
+     2002.
+     （TDD 奠基之作，阐述了「红-绿-重构」循环的方法论和最佳实践）
+
+[2]  Wirfs-Brock R, Wilkerson B, Wiener L. Designing Object-Oriented
+     Software[M]. Upper Saddle River: Prentice Hall, 1990.
+     （RDD（职责驱动设计）的起源著作，提出了 CRC 卡片法和职责划分原则）
+
+[3]  Gamma E, Helm R, Johnson R, et al. Design Patterns: Elements of
+     Reusable Object-Oriented Software[M]. Boston: Addison-Wesley, 1994.
+     （GoF 设计模式经典，MVC 架构模式的核心参考文献）
+
+[4]  Martin R C. Clean Code: A Handbook of Agile Software Craftsmanship[M].
+     Upper Saddle River: Prentice Hall, 2008.
+     （软件设计原则经典著作，涵盖单一职责、开闭原则等 RDD 核心理念）
+
+[5]  Tanenbaum A S, Bos H. Modern Operating Systems[M]. 4th ed. London:
+     Pearson, 2014.
+     （操作系统经典教材，覆盖进程/线程、内存管理、文件系统等内容）
+
+[6]  Lutz M. Programming Python[M]. 4th ed. Sebastopol: O'Reilly Media, 2010.
+     （Python 编程权威参考，第 9 章系统介绍了 Tkinter GUI 编程）
+
+[7]  Clark A. Pillow (PIL Fork) Documentation[EB/OL]. (2024-03-15).
+     https://pillow.readthedocs.io/en/stable/.
+     （本项目使用的 Python 图像处理库官方文档，包括 EXIF 处理、色彩模式
+     转换、缩放算法的完整 API 参考）
+
+[8]  Python Software Foundation. tkinter — Python interface to Tcl/Tk[EB/OL].
+     (2024). https://docs.python.org/3/library/tkinter.html.
+     （Python 官方文档中 Tkinter 模块的完整参考，包括 Canvas 控件、
+     事件绑定、PhotoImage 的使用说明）
+
+[9]  Krekel H, et al. pytest Documentation[EB/OL]. (2024).
+     https://docs.pytest.org/en/stable/.
+     （本项目使用的 Python 测试框架官方文档，包括 fixture 机制、
+     异常测试、参数化测试的完整说明）
+
+[10] Anthropic. Claude Code Documentation[EB/OL]. (2026).
+     https://docs.anthropic.com/en/docs/claude-code.
+     （本项目中使用的 AI 辅助编程工具官方文档，介绍了 Claude Code 的
+     功能特性、使用方法和最佳实践）
+
+[11] 字节跳动. 校园招聘 — Windows 客户端开发工程师-IT[EB/OL]. (2025).
+     https://jobs.bytedance.com/campus/position/7530950785564231944/detail.
+     （字节跳动 2025 校园招聘岗位要求，本文 4.3 节的学习规划基于该 JD
+     制定）
+
+[12] Weiser M. Program Slicing[J]. IEEE Transactions on Software Engineering,
+     1984, SE-10(4): 352-357.
+     （程序切片技术的原始论文，RDD 中「单一职责」原则的理论基础之一）
